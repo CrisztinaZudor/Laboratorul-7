@@ -1,0 +1,55 @@
+body {background-color: #FFFFCC;}
+
+#table, th
+{
+border: 1px solid black;
+background-color: #800000;
+width:100%
+border-collapse: collapse;
+}
+
+#h1
+{
+background-color: red;
+color:
+text-align: center;
+font-family: "Calibri", cursive, sans-serif;
+}
+
+#h2
+{
+background-color: pink;
+color: #660033
+text-align: center;
+font-family:"Calibri", cursive, sans-serif;
+}
+
+#p
+{
+color: black;
+font-size: 18px;
+font-family:"Calibri";
+}
+
+#img
+{
+border-color:black
+border-radius:
+display: block;
+border: 2px solid black;
+        border=radius; 12 px;
+		with: 150 px;
+		display: black;
+		padding: 2px;
+		margin: left;
+		opacity: 0.8;
+}
+
+ul 
+{
+background-color: purple ;
+border: 1px solid black;
+width:100%
+border-collapse: collapse;
+}
+
