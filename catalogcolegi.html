@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Catalog colegi</title>
+<link rel = "stylesheet" href="style.css">
+</head>
+
+
+<body>
+<h1>Catalog colegi</h1>
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+   <div class="mySlides w3-display-container w3-center">
+    <img src="Alexandra Mohanu.jpg" style="width:40%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+	<div class="linkPag"><a href="Alexandra Mohanu.html">Alexandra Mohanu</a></div>
+    </div>
+  </div>
+  
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Rebeca.jpg" style="width:40%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<div class="linkPag"><a href="Rus Rebeca.html">Rebeca Rus</a></div>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Onita Andrei.jpg" style="width:40%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<div class="linkPag"><a href="Onita Andrei (1).html">Onita Andrei</a></div>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="Dragos Popa.jpg" style="width:40%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+<div class="linkPag"><a href="dragos popa.html">Dragos Popa</a></div>
+    </div>
+  </div>
+    <div class="mySlides w3-display-container w3-center">
+    <img src="poza eu.jfif" style="width:40%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+	<div class="linkPag"><a href="Zudor Crisztina.html">Zudor Crisztina</a></div>
+    </div>
+  </div>
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000);    
+}
+</script>
+
+</body>
+</html>
