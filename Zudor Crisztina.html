@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<title> pagina profil Zudor Crisztina</title>
+<link rel = "stylesheet" href="style.css">
+</head>
+
+
+<script>
+
+function veziViitor()
+{
+  document.getElementById("nume").innerHTLM= " Zudor Crisztina - Inginer";
+  var tabel_Ed= document.getElementById("tabel_Ed");
+   tabel_Ed.rows[0].cells[0].innerHTLM="UTCN";
+   tabel_Ed.rows[0].cells[2].innerHTLM="ETTI";
+   tabel_Ed.rows[1].cells[0].innerHTLM="CNAV";
+   tabel_Ed.rows[1].cells[2].innerHTLM="Mate-info";
+   document.getElementById("citat").innerHTLM= "The most selfish thing you can do is help another";
+   document.getElementById("imagine").src="poza.jfif";
+   document.body.style.backgroundColor="pink";
+   
+   var par=document.getElementByTagName("p");
+   var i;
+   for (i=0; i<par.lenght; i++) 
+   {
+   par[i].style.color="black";
+   }
+   document.getElementById("imagine").style.opacity="0.9";
+   document.getElementById("imagine").style.border="15px";
+   document.getElementById("imagine").style.color="red";
+
+}
+
+</script>
+
+
+<body>
+ <button onclick="veziViitor()">Alta Viata</button>
+
+<h1 id="nume"> Zudor Crisztina</h1>
+<img id="imagine" src ="poza eu.jfif" width="400" height="375">
+<p id="par">crisztinazudor000@gmail.com</p>
+<h2 id="h2">Educatie</h2>
+
+<p id="citat">“What we have to learn to do, we learn by doing”- Aristotle</p>
+<table id="tabel_Ed">
+  <tr>
+    <th >Disciplina</th>
+    <th >An</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td >Grafică asistată de calculator</td>
+    <td >2</td>
+    <td >https://etti.utcluj.ro/files/FiseDisciplina/TstRo/EL3117.pdf</td>
+  </tr>
+  <tr>
+    <td >Proiectarea asistată de calculator</td>
+    <td >2</td>
+    <td>https://etti.utcluj.ro/files/FiseDisciplina/TstRo/EL3129.pdf</td>
+ </tr>
+  <tr> 
+    <td>Programarea calculatoarelor - Algoritmi</td>
+    <td >1</td>
+    <td >https://etti.utcluj.ro/files/FiseDisciplina/TstRo/EL3111.pdf</td>
+  </tr>
+</table>
+
+<ul>
+<h2 >Pasiuni</h2>
+<li >Cititul</li>
+<li>Desenul</li>
+<li>Calatoriile</li>
+<li>Filmele</li>
+<li>Gatitul</li>
+</ul>
+</br>
+</br> 
+</br>
+</body>
+</html>
